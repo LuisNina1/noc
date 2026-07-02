@@ -5,6 +5,6 @@ import { Server } from "./presentation/server";
 	main();
 })();
 function main() {
-	// Server.start()
-	console.log(envVars.PORT);
+	Server.start();
+	// console.log(envVars.PORT);
 }
